@@ -1,0 +1,33 @@
+.card{
+    width: 30vw;
+    min-width: 500px;
+    padding: 3rem 2rem;
+    margin-top: 2rem;
+    border: none;
+    background-color: white;
+}
+.navlink{
+    font-weight: bold;
+    text-decoration: none;
+}
+.navlink:hover{
+    text-decoration: underline;
+}
+.devider{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0rem;
+}
+.devider span{
+    width: 40%;
+    height: 1px;
+    background-color: gray;
+}
+.fa{
+    color: red;
+    font-size: 25px!important;
+    margin-right: .5rem;
+}
